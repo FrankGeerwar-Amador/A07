@@ -46,7 +46,7 @@ main {
 
 /* the styles for the footer */
 footer{
-	background-color: 2px solid var(--accent-color);
+	background-color: var(--accent-color);
 	padding-top: 1em;
 	padding-bottom: 1em;
 	& p{
