@@ -78,6 +78,7 @@ body{
 }
 header{
 	border-bottom: 2px solid var(--accent-color);
+	background: linear-gradient(30deg, #f6bb73 0%, white 30%, white 65%, #f6bb73 100%);
 }
 
 h1, main{
@@ -87,9 +88,42 @@ h1, main{
 
 footer{
 	background-color: solid var(--accent-color);
+	padding-top: 1em;
+	padding-bottom: 1em;
 	& p{
 		color: white;
 	}
 
 }
 
+header img{
+	margin-top: .75em;
+	margin-bottom: .75em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+header h2{
+	padding-bottom: 0;
+}
+
+header h3{
+	padding-bottom: 1em;
+}
+
+main{
+	padding-right: 1em;
+	padding-left: 1em;
+	padding-bottom: 1em;
+	
+}
+
+blockquote{
+	font-style: italic;
+	padding-left: 2em;
+}
+
+main img{
+	border: 4px double var(--accent-color);
+	border-radius: 10px;
+}
